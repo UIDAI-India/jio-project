@@ -13,7 +13,4 @@ resource "azurerm_resource_group" "rg03" {
   location = "eastus"
 }
 
-resource "azurerm_resource_group" "rg04" {
-  name     = "rg-siasd"
-  location = "eastus"
-}
+
