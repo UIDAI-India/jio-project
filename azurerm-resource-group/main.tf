@@ -7,3 +7,10 @@ resource "azurerm_resource_group" "rg02" {
   name     = "rg-najim"
   location = "eastus"
 }
+
+resource "azurerm_resource_group" "rg03" {
+  name     = "rg-sid"
+  location = "eastus"
+}
+
+
