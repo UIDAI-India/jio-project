@@ -8,7 +8,3 @@ resource "azurerm_resource_group" "rg02" {
   location = "eastus"
 }
 
-resource "azurerm_resource_group" "rg03" {
-  name     = "rg-sid"
-  location = "eastus"
-}
